@@ -1,0 +1,17 @@
+/* Archivo de estilos propio para el clon de Revera. */
+
+/* Establecemos un alto completo para las imágenes del carrusel para que ocupen toda la pantalla. */
+.carousel-item img {
+  height: 500px; /* Fijamos una altura uniforme para cada slide. */
+  object-fit: cover; /* Aseguramos que la imagen se recorte sin deformarse. */
+}
+
+/* Añadimos algo de espacio alrededor de los textos de la sección de proyectos. */
+#projects .col-md-3 {
+  padding-bottom: 1rem; /* Separación inferior para respirar mejor entre las imágenes. */
+}
+
+/* Estilo básico del pie de página. */
+footer {
+  font-size: 0.9rem; /* Reducimos el tamaño de la letra para un aspecto más discreto. */
+}
